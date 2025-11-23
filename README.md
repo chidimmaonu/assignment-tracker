@@ -7,18 +7,18 @@ A clean, responsive CRUD web application designed to help students track academi
 ##  Live Application
 
 🔗 **Hosted on Render:**  
-*<insert your live URL here once deployed>*
+(https://assignment-tracker-1-lh1p.onrender.com)
 
 ---
 
-## 💾 GitHub Repository
+##  GitHub Repository
 
 🔗 **Public Repo:**  
-*<insert your GitHub link here>*
+(https://github.com/chidimmaonu/assignment-tracker)
 
 ---
 
-## 📌 Features
+## Features
 
 - Create new assignments
 - View all assignments in a table format
@@ -54,10 +54,7 @@ Third-party styling: Bootstrap + Bootswatch + Google fonts
 
 Custom CSS: Styling was customized in /public/Content/app.css to apply pastel colors, rounded cards, spacing, and button styling.
 
-## Installation & Setup
+## 👤 Author
 
-### 1. Clone the Repository
-
-```sh
-git clone <your-repo-link>
-cd assignment_tracker
+Chidimma Onumaegbu
+INFR3120 – Secure CRUD Application
