@@ -1,0 +1,109 @@
+
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #f3f8ff; /* pastel blue */
+}
+
+main.container {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+/* Navbar styling */
+.navbar {
+  background: #1f3b63 !important; /* deep blue for contrast */
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.8rem;  /* make "Assignment Tracker" bigger */
+  letter-spacing: 0.04em;
+}
+
+/* Round all the main UI elements */
+.card,
+.btn,
+.form-control,
+.form-select,
+.table,
+.alert {
+  border-radius: 0.9rem !important;
+}
+
+/* Primary buttons */
+.btn-primary {
+  background-color: #5ca9ff;
+  border-color: #5ca9ff;
+}
+
+.btn-primary:hover {
+  background-color: #448ee0;
+  border-color: #448ee0;
+}
+
+.btn-outline-primary {
+  color: #5ca9ff;
+  border-color: #5ca9ff;
+  background-color: #ffffff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #5ca9ff;
+  color: #ffffff;
+}
+
+/* Hero section alignment */
+.hero-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.page-title {
+  color: #1b3556;
+  font-weight: 600;
+}
+
+.page-subtitle {
+  color: #6c7a95;
+}
+
+.hero-card {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+}
+
+.hero-buttons .btn {
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.hero-buttons .btn:last-child {
+  margin-bottom: 0;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.status-not-started {
+  background-color: #e0e5f5;
+  color: #3b4260;
+}
+
+.status-in-progress {
+  background-color: #fff4cc;
+  color: #8a6d1f;
+}
+
+.status-done {
+  background-color: #d9f7d9;
+  color: #256029;
+}

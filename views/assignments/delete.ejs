@@ -1,0 +1,29 @@
+<%- include('../partials/header') %>
+
+  <h1 class="page-title mb-4 text-danger">Delete Assignment</h1>
+
+  <div class="card hero-card p-4">
+    <div class="alert alert-warning mb-4">
+      <h5 class="alert-heading">Are you sure?</h5>
+      <p>
+        You are about to permanently delete this assignment:
+      </p>
+      <ul class="mb-2">
+        <li><strong>Title:</strong> <%= assignment.title %></li>
+        <li><strong>Course:</strong> <%= assignment.course %></li>
+        <li><strong>Due Date:</strong> <%= assignment.dueDate.toISOString().substring(0,10) %></li>
+        <li><strong>Status:</strong> <%= assignment.status %></li>
+      </ul>
+      <p class="mb-0">
+        This action cannot be undone.
+      </p>
+    </div>
+
+    <form action="/assignments/<%= assignment._id %>/delete" method="POST" class="d-flex justify-content-between">
+      <a href="/assignments" class="btn btn-outline-secondary">Cancel</a>
+      <button type="submit" class="btn btn-danger">Yes, delete it</button>
+    </form>
+  </div>
+
+<%- include('../partials/footer') %>
+
